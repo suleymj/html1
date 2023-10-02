@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a {
+        color: rgb(0, 113, 133);
+        transition: color 0.15s;
+      }
+      a:hover {
+        color: orange;
+      }
+      .type {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+      }
+      .price {
+        color: rgb(0, 118, 0);
+        font-weight: bold;
+      }
+      .cart {
+        background-color: rgb(255, 216, 20);
+        color: rgb(0, 0, 0);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border: none;
+        border-radius: 18px;
+        margin-right: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+      .cart:hover {
+        opacity: 0.6;
+      }
+      .cart:active {
+        opacity: 0.4;
+      }
+      .buy {
+        background-color: rgb(255, 164, 28);
+        color: rgb(0, 0, 0);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border: none;
+        border-radius: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: opacity 0.15;
+      }
+      .buy:hover {
+        opacity: 0.7;
+      }
+      .buy:active {
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="a" href="https://www,amazon.com/" target="_blank"
+      >Back to Amazon</a
+    >
+    <p class="type">Nice Black Running Shoes</p>
+    <p class="price">$39 - in stock.</p>
+    <p>Free delivery tomorrow.</p>
+    <button class="cart">Add to Cart</button>
+    <button class="buy">Buy now</button>
+  </body>
+</html>
